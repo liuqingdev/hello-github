@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ImageView
+           android:id="@+id/main_image"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:src="@mipmap/ic_launcher"
+           android:layout_centerInParent="true"/>
+   </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_gravity="start">
+       <RelativeLayout
+           android:id="@+id/top_layout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#21b2b5">
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:id="@+id/nav_head_img"
+               android:layout_width="@dimen/about_80"
+               android:layout_height="@dimen/about_80"
+               android:src="@mipmap/temp_portrait"
+               android:layout_centerInParent="true"/>
+           <!--<com.lq.drawertest.CommomCircleView-->
+               <!--android:id="@+id/nav_head_img"-->
+               <!--android:layout_width="80dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_centerInParent="true"-->
+               <!--android:src="@mipmap/temp_portrait"/>-->
+       </RelativeLayout>
+        <ListView
+            android:id="@+id/mylistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:id="@+id/nav_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="start"-->
+        <!--app:menu="@menu/nav_menu"-->
+        <!--app:headerLayout="@layout/nav_header">-->
+    <!--</android.support.design.widget.NavigationView>-->
+</android.support.v4.widget.DrawerLayout>

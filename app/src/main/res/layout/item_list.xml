@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/d1"
+        android:layout_marginLeft="@dimen/about_5"/>
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/about_tv16"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/about_8"
+        android:text="外星人"/>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--dp-->
+    <dimen name="about_0">0dp</dimen>
+    <dimen name="about_1">1dp</dimen>
+    <dimen name="about_2">2dp</dimen>
+    <dimen name="about_3">3dp</dimen>
+    <dimen name="about_5">5dp</dimen>
+    <dimen name="about_8">8dp</dimen>
+    <dimen name="about_10">10dp</dimen>
+    <dimen name="about_12">12dp</dimen>
+    <dimen name="about_15">15dp</dimen>
+    <dimen name="about_18">18dp</dimen>
+    <dimen name="about_20">20dp</dimen>
+    <dimen name="about_23">23dp</dimen>
+    <dimen name="about_25">25dp</dimen>
+    <dimen name="about_30">30dp</dimen>
+    <dimen name="about_32">32dp</dimen>
+    <dimen name="about_35">35dp</dimen>
+    <dimen name="about_38">38dp</dimen>
+    <dimen name="about_40">40dp</dimen>
+    <dimen name="about_45">45dp</dimen>
+    <dimen name="about_50">50dp</dimen>
+    <dimen name="about_55">55dp</dimen>
+    <dimen name="about_60">60dp</dimen>
+    <dimen name="about_65">65dp</dimen>
+    <dimen name="about_70">70dp</dimen>
+    <dimen name="about_75">75dp</dimen>
+    <dimen name="about_76">76dp</dimen>
+    <dimen name="about_80">80dp</dimen>
+    <dimen name="about_90">90dp</dimen>
+    <dimen name="about_95">95dp</dimen>
+    <dimen name="about_100">100dp</dimen>
+    <dimen name="about_120">120dp</dimen>
+    <dimen name="about_140">140dp</dimen>
+    <dimen name="about_160">160dp</dimen>
+    <dimen name="about_180">180dp</dimen>
+    <dimen name="about_190">190dp</dimen>
+    <dimen name="about_200">200dp</dimen>
+    <dimen name="about_210">210dp</dimen>
+    <dimen name="about_290">290dp</dimen>
+    <dimen name="about_320">320dp</dimen>
+    <dimen name="about_360">360dp</dimen>
+
+
+    <dimen name="about_tv18">18sp</dimen>
+    <dimen name="about_tv20">20sp</dimen>
+    <dimen name="about_tv22">22sp</dimen>
+    <dimen name="about_tv2">2sp</dimen>
+    <dimen name="about_tv15">15sp</dimen>
+    <dimen name="about_tv12">12sp</dimen>
+    <dimen name="about_tv42">42sp</dimen>
+    <dimen name="about_tv28">28sp</dimen>
+    <dimen name="about_tv16">16sp</dimen>
+    <dimen name="about_tv17">17sp</dimen>
+    <dimen name="about_tv19">19sp</dimen>
+    <dimen name="about_tv60">60sp</dimen>
+    <dimen name="about_tv36">36sp</dimen>
+
+    <dimen name="about_minus23">-23dp</dimen>
+    <dimen name="navigation_icon_size">40dp</dimen>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:vanpersie="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/green_bg">
+
+    <com.lq.drawertest.SlidingMenuView
+        android:id="@+id/smv_custom_sliding_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        vanpersie:menuRightPadding="100dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/left_menu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/qq"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </LinearLayout>
+    </com.lq.drawertest.SlidingMenuView>
+</RelativeLayout>
